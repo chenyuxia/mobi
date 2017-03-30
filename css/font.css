@@ -1,0 +1,58 @@
+/*
+    create 2015/09/10/14:50 by chenyuxia
+    特殊字体引用
+*/
+
+/*font*/
+@font-face {
+//********
+    IE浏览器：EOT
+    Mozilla浏览器：OTF，TTF
+    Safari浏览器：OTF，TTF​​，SVG
+    歌剧：OTF，TTF​​，SVG
+    Chrome浏览器：TTF，SVG
+    **********//
+}
+
+@font-face {
+    font-family: 'choplinextralight-demo';
+    src: url('../font/choplin-extralight-demo_0.eot');
+    src: url('../font/choplin-extralight-demo_0.eot?#iefix') format('embedded-opentype'),
+    url('../font/choplin-extralight-demo_0.woff2') format('woff2'),
+    url('../font/choplin-extralight-demo_0.woff') format('woff'),
+    url('../font/choplin-extralight-demo_0.ttf') format('truetype'),
+    url('../font/choplin-extralight-demo_0.svg#choplinextralight-demo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'choplinmedium-demo';
+    src: url('../font/choplin-medium-demo_0.eot');
+    src: url('../font/choplin-medium-demo_0.eot?#iefix') format('embedded-opentype'),
+    url('../font/choplin-medium-demo_0.woff2') format('woff2'),
+    url('../font/choplin-medium-demo_0.woff') format('woff'),
+    url('../font/choplin-medium-demo_0.ttf') format('truetype'),
+    url('../font/choplin-medium-demo_0.svg#choplinmedium-demo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('../font/helveticaneue-lightext.eot');
+    src: url('../font/helveticaneue-lightext.eot?#iefix') format('embedded-opentype'),
+    url('../font/helveticaneue-lightext.woff2') format('woff2'),
+    url('../font/helveticaneue-lightext.woff') format('woff'),
+    url('../font/helveticaneue-lightext.ttf') format('truetype'),
+    url('../font/helveticaneue-lightext.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

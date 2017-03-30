@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* reset */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,input,textarea{margin: 0; padding: 0;font-family:"microsoft yahei";}
+h1,h2,h3,h4,h5,h6,em,h6,b,p{font-weight: normal; font-style: normal;}
+img{vertical-align:bottom; border:0 none;}
+select,input,textarea{border:none;}
+a{text-decoration: none;color:#666;font-family:"microsoft yahei";font-size:12px;outline: none;}
+a:hover{color:#00afe9;}
+ul,ol{list-style: none;}
+.clear{ clear: both;}
+.clearFix { zoom:1; }
+.clearFix:after { content:'.'; display:block; height:0; clear:both; visibility:hidden;}
+::selection{background:#00afe9; color: white; /* Safari */}
+img::selection {background:#00afe9;}
+::-moz-selection{background:#00afe9; color: white; /* Firefox */ } /*鼠标滑过变色*/
+.none{display: none;}
+
+.cyx_topNavBarE a,
+.cyx_aboutInCh a,
+.cyx_vipBar a,
+.cyx_vipT a,
+.cyx_vipAccBtn a,
+.cyx_vipOutBtn,
+.cyx_vipInT a,
+.cyx_vipInfoBtn,
+.cyx_contFiveM li,
+.cyx_topSign,
+.cyx_topLogin,
+.cyx_footOne input[type='submit'],
+.cyx_contOneCc{
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.cyx_vipInfo input,
+.cyx_vipOutC INPUT,
+.cyx_vipTranC INPUT,
+.cyx_signWc INPUT{line-height: 45px;}
+.cyx_vipTranC SELECT{padding: 10px 0px 10px 10px;}
+
+.cyx_fade,
+.cyx_topNav li a,
+a{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.cyx_topLang{
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+
+/*禁用表单input、select元素的默认外观*/
+input[type=text],input[type='button'],input[type="submit"],select,input[type=file]{
+-webkit-appearance:none;
+        appearance:none;
+}
+
+/*禁用 select 默认下拉箭头*/
+select::-ms-expand,
+select option::-ms-check,
+select::-moz-expand,
+select option::-moz-check{
+	display: none;
+}
+
+
+
+/*禁用 radio 和 checkbox 默认样式*/
+input[type=radio]::-ms-check,
+input[type=checkbox]::-ms-check,input[type=file]::-ms-check{
+	display: none;
+}
