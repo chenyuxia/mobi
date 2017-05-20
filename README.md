@@ -1,2 +1,2 @@
 # mobi
-魔比致力于打造基于互联网云服务平台。使用到css3的transition过渡属性，JQuery的animate动画方法
+使用到css3的transition过渡属性，JQuery的animate动画方法
